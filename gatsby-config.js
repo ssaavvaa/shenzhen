@@ -16,6 +16,13 @@ module.exports = {
         },
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/masseuses`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
